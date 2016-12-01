@@ -1,4 +1,4 @@
-package be.pxl.troger.ar;
+package com.michaeltroger.barcodenavi;
 
 import org.junit.Test;
 

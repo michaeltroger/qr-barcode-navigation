@@ -1,4 +1,4 @@
-package be.pxl.troger.ar;
+package com.michaeltroger.qrbarcodenavi;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,8 +6,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import be.pxl.troger.ar.tools.CameraManager;
-import be.pxl.troger.ar.views.CameraPreviewView;
+import com.michaeltroger.barcodenavi.R;
+import com.michaeltroger.qrbarcodenavi.tools.CameraManager;
+import com.michaeltroger.qrbarcodenavi.views.CameraPreviewView;
 
 /**
  * main activity, responsible for loading the layout and its views

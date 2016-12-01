@@ -8,7 +8,7 @@
 ### How do I get set up? ###
 * IDE: Android Studio 1.5.1
 * Dependencies: ZXing (Zebra Crossing) library for barcode detection (automatically included by Gradle)
-* Navigation configuration: Barcode navigation matrix is located in be.pxl.troger.ar.tools.BarcodeNavigation.java
+* Navigation configuration: Barcode navigation matrix is located in com.michaeltroger.qrbarcodenavi.tools.BarcodeNavigation.java
 * Navigation usage: the barcode matrix is a 2D array including the values of the barcodes to detect in the wished 2D order the navigation should accour. The destination barcode can be defined in the CameraPreviewView. 
 * Images location: res/drawable | Sounds location: res/raw
 * Automatically taking of photos: Flag in CameraPreviewView

@@ -1,4 +1,4 @@
-package be.pxl.troger.ar.views;
+package com.michaeltroger.qrbarcodenavi.views;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -25,11 +25,10 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.HashMap;
 
-import be.pxl.troger.ar.R;
-import be.pxl.troger.ar.MyActivity;
-import be.pxl.troger.ar.tools.BarcodeNavigation;
+import com.michaeltroger.barcodenavi.R;
+import com.michaeltroger.qrbarcodenavi.MyActivity;
+import com.michaeltroger.qrbarcodenavi.tools.BarcodeNavigation;
 
 
 /**

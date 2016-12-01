@@ -1,4 +1,4 @@
-package be.pxl.troger.ar.tools;
+package com.michaeltroger.qrbarcodenavi.tools;
 
 
 import android.content.Context;
