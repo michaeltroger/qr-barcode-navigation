@@ -80,7 +80,7 @@ public class CameraPreviewView extends SurfaceView implements SurfaceHolder.Call
     /**
      * whether or not a picture shall be taken after barcode recognition
      */
-    private static final boolean TAKE_PICTURE_ON_BARCODE_DETECTION = true;
+    private static final boolean TAKE_PICTURE_ON_BARCODE_DETECTION = false;
     /**
      * the preview width of the camera
      */
