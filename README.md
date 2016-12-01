@@ -1,20 +1,27 @@
 # Augmented Reality barcode & QR code navigation for >= Android 4.0 #
 
+<img src="/qrbarcodenavi.png" alt="Augmented Reality barcode and QR code navigation" width="400px"/>
+
 ### What is this repository for? ###
 
-* Uses the real time camera image to analyze it for barcodes. Main feature is a navigation to a goal barcode - arrows into the right direction are shown depending on a barcode matrix. The Features include automatically taking of photos when a barcode is recognized. Audio guidance is possible too .
-* Version 1.0
+* Uses the real time camera image to analyze it for barcodes and uses them for a navigation to a goal barcode. Arrows into the right direction are shown depending on a hardcoded 2D barcode matrix. The Features include the automatically taking of a photo when a barcode is detected. Audio guidance is possible too.
+* The barcode matrix is a 2D array of the values of the wished barcodes/qr-codes. The order within the matrix represents their "physical" position - e.g. one could mark physical boxes with the barcodes in the very same 2D order. I.e. if you look at the barcode located at index [0,0] it represents a box at the left top. If the goal barcode is at [2,2] - the searched box will be in the horizontal and vertical center (assuming a 5x5 matrix is used)
+* The navigation will lead you first to the correct horizontal position, by telling you at each barcode you look at, where you're located relative to the goal. As soon as you're at the correct horizontal position the navigation will continue to the right vertical position until the goal barcode / qr code is found.
+* Version 1.1
 
 ### How do I get set up? ###
-* IDE: Android Studio 1.5.1
+* IDE: Android Studio (tested with 2.1.2)
+* Android SDK
 * Dependencies: ZXing (Zebra Crossing) library for barcode detection (automatically included by Gradle)
-* Navigation configuration: Barcode navigation matrix is located in com.michaeltroger.qrbarcodenavi.tools.BarcodeNavigation.java
-* Navigation usage: the barcode matrix is a 2D array including the values of the barcodes to detect in the wished 2D order the navigation should accour. The destination barcode can be defined in the CameraPreviewView. 
+* Navigation configuration: The barcode navigation matrix is located in .tools.BarcodeNavigation.java
+* Navigation usage:  The destination barcode can be defined in the CameraPreviewView. 
 * Images location: res/drawable | Sounds location: res/raw
-* Automatically taking of photos: Flag in CameraPreviewView
-
-
+* Automatically taking of photos: Flag in CameraPreviewView (disabled by default)
 
 ### Who do I talk to? ###
 
-* Repo owner and developer: michael.troger@student.pxl.be
+* Repo owner and developer: android@michaeltroger.com
+
+### Credits ###
+
+* The barcode/qr-code detection is based on Desmond Shaw's Android Barcode Reader https://github.com/DynamsoftRD/Android-Barcode-Reader
