@@ -17,6 +17,7 @@
 * Navigation usage:  The destination barcode can be defined in the CameraPreviewView. 
 * Images location: res/drawable | Sounds location: res/raw
 * Automatically taking of photos: Flag in CameraPreviewView (disabled by default)
+* Make sure the app has the required permission on start, as there is no runtime-check yet! (Camera, external storage)
 
 ### Test image matrix with the correct order of the hardcoded navigation database ###
 <img src="/testimages/belgium.png" alt="" width="100px"/>
