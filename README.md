@@ -20,35 +20,15 @@
 * Make sure the app has the required permission on start, as there is no runtime-check yet! (Camera, external storage)
 
 ### Test image matrix with the correct order of the hardcoded navigation database ###
-<img src="/testimages/belgium.png" alt="" width="100px"/>
-<img src="/testimages/cafe.png" alt="" width="100px"/>
-<img src="/testimages/cat.png" alt="" width="100px"/>
-<img src="/testimages/computer.png" alt="" width="100px"/>
-<img src="/testimages/day.png" alt="" width="100px"/>
+<img src="/testimages/belgium.png" alt="" width="100px"/><img src="/testimages/cafe.png" alt="" width="100px"/><img src="/testimages/cat.png" alt="" width="100px"/><img src="/testimages/computer.png" alt="" width="100px"/><img src="/testimages/day.png" alt="" width="100px"/>
 
-<img src="/testimages/dertest.png" alt="" width="100px"/>
-<img src="/testimages/dog.png" alt="" width="100px"/>
-<img src="/testimages/gestern.png" alt="" width="100px"/>
-<img src="/testimages/grass.png" alt="" width="100px"/>
-<img src="/testimages/hallowelt.png" alt="" width="100px"/>
+<img src="/testimages/dertest.png" alt="" width="100px"/><img src="/testimages/dog.png" alt="" width="100px"/><img src="/testimages/gestern.png" alt="" width="100px"/><img src="/testimages/grass.png" alt="" width="100px"/><img src="/testimages/hallowelt.png" alt="" width="100px"/>
 
-<img src="/testimages/heute.png" alt="" width="100px"/>
-<img src="/testimages/keyboard.png" alt="" width="100px"/>
-<img src="/testimages/moon.png" alt="" width="100px"/>
-<img src="/testimages/nature.png" alt="" width="100px"/>
-<img src="/testimages/news.png" alt="" width="100px"/>
+<img src="/testimages/heute.png" alt="" width="100px"/><img src="/testimages/keyboard.png" alt="" width="100px"/><img src="/testimages/moon.png" alt="" width="100px"/><img src="/testimages/nature.png" alt="" width="100px"/><img src="/testimages/news.png" alt="" width="100px"/>
 
-<img src="/testimages/night.png" alt="" width="100px"/>
-<img src="/testimages/peace.png" alt="" width="100px"/>
-<img src="/testimages/phone.png" alt="" width="100px"/>
-<img src="/testimages/rat.png" alt="" width="100px"/>
-<img src="/testimages/restaurant.png" alt="" width="100px"/>
+<img src="/testimages/night.png" alt="" width="100px"/><img src="/testimages/peace.png" alt="" width="100px"/><img src="/testimages/phone.png" alt="" width="100px"/><img src="/testimages/rat.png" alt="" width="100px"/><img src="/testimages/restaurant.png" alt="" width="100px"/>
 
-<img src="/testimages/school.png" alt="" width="100px"/>
-<img src="/testimages/star.png" alt="" width="100px"/>
-<img src="/testimages/today.png" alt="" width="100px"/>
-<img src="/testimages/tv.png" alt="" width="100px"/>
-<img src="/testimages/yesterday.png" alt="" width="100px"/>
+<img src="/testimages/school.png" alt="" width="100px"/><img src="/testimages/star.png" alt="" width="100px"/><img src="/testimages/today.png" alt="" width="100px"/><img src="/testimages/tv.png" alt="" width="100px"/><img src="/testimages/yesterday.png" alt="" width="100px"/>
 
 ### Who do I talk to? ###
 
